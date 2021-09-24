@@ -1,0 +1,165 @@
+.main-parent{
+    background: gray;
+}
+
+.welcome{
+    color: rgb(168, 22, 22);
+    background: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 25px;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-shadow: 1px 1px 2px #7f0692;
+    box-shadow: 8px 8px 5px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px; 
+    line-height: 40px;   
+}
+
+.middle-container{
+    border: 10px solid green;
+    position: relative;
+    height: 700px;
+    width: auto;
+    padding: 0px;
+}
+
+.middle{
+    color: #51045f;
+    background: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 8px 8px 5px #982761;
+    font-weight: 900;
+    font-size: 25px;
+    height: 250px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.middle1{
+ text-align: center;
+ line-height: 2;
+ padding-top: 10;
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ 
+}
+
+.middle2{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+}
+
+.middle3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.middle4{
+   text-align: center;
+   position: absolute;
+   bottom: 20px;
+   right:20px;
+   
+}
+
+#middle4-form{
+    line-height: 15px;
+}
+
+#head4{
+    font-size: 28px;
+}
+
+#rate4{
+    font-size: 18px;
+}
+
+#text4{
+    text-align: center;
+}
+
+#submit4{
+    font-size: 18px;
+}
+
+#btn4{
+    background: red;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+.center-div{
+    border: 8px solid red;
+    border-radius: 20px;
+    background: greenyellow;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 80px;
+    left: 500px;
+    position: fixed;
+    box-shadow: 8px 8px 5px #620a81;
+}
+
+.offer{
+    font-style: italic;
+    color: brown;
+    text-align: center;
+}
+
+.bottom-div{
+    border: 10px solid purple;
+    background: green;
+    text-align: center;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item{
+    background: #bdf5b3;
+    font-style: italic;
+    line-height:2;
+    height: 280px;
+    margin:5px;
+    margin-bottom:10px;
+    padding: 2px;
+}
+
+.fruits{
+    float: left;
+    width: 360px;
+    background:khaki;
+}
+
+.vegetables{
+    float: right;
+    background: khaki;
+    width: 360px;
+}
+
+.others{
+    background:khaki;
+    clear: both;
+    margin: 5px;
+    line-height: 2;
+    padding: 5px;
+    font-style: italic;
+}
